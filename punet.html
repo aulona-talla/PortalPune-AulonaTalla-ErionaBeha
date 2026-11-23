@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Punet|Portal punw</title>
+</head>
+<body>
+    <header>
+        <h1>Portal Pune</h1>
+        <p>Gjeni punen tuaj te ardhshme ne Kosove.</p>
+        <nav>
+            <ul>
+                <li><a href="index.html">Ballina</a></li>
+                <li><a href="punet.html">Punet</a></li>
+                <li><a href="rreth-nesh.html">Rreth nesh</a></li>
+                <li><a href="login.html">Hyr</a></li>
+                <li><a href="register.html">Regjistrohu</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <h2>Vendet e lira te punes</h2>
+            <p>Perdorni formularin per te filtruar punet sipas fjales kyqe,kategorise dhe llojit te kontrates.</p>
+            <form action="#" method="get">
+                <fieldset>
+                    <legend>Kerko pune</legend>
+                    <p>
+                        <label for="fjala">Fjala kyqe;</label>
+                        <input type="search" id="fjala" name="fjala" placeholder="p.sh. zhvillues">
+                    </p>
+                    <p>
+                        <label for="kategoria">Kategoria:</label>
+                        <select id="kategoria" name="kategoria">
+                            <option value="">Te gjitha</option>
+                             <option value="it">Teknologji e Informacionit</option>
+                             <option value="marketing">Marketing dhe shitje</option>
+                             <option value="financa">Financa dhe Kontabilitet</option>
+                             <option value="arsim">Arsim dhe Trajnim</option>
+                        </select>
+                    </p>
+                    <p>Lloji i kontrates: </p>
+                    <p>
+                       <input type="radio" id="koheplote" name="kontrata" value="koheplote" checked>
+                       <label for="koheplote">Kohe plote</label>
+
+                       <input type="radio" id="koheshkurter" name="kontrata" value="koheshkurter">
+                       <label for="koheshkurter">Kohe e pjesshme</label>
+
+                       <input type="radio" id="praktike" name="kontrata" value="praktike">
+                        <label for="praktike">Praktike</label>
+                    </p>
+                   <p>
+                    <input type="checkbox" id ="remote" name="remote" value="po">
+                    <label for="remote">Vetem pune ne distance(remote)</label>
+                   </p>
+                   <button type="submit">Kerko</button>
+                    <button type="reset">Pastro</button>
+                </fieldset>
+            </form>
+        </section>
+
+        <section>
+            <h2>Lista e pozitave</h2>
+            <table>
+                <caption>Pozitat e hapura ne kete jave</caption>
+                <thead>
+                    <tr>
+                        <th>Pozita</th>
+                         <th>Kompania</th>
+                          <th>Qyteti</th>
+                           <th>Lloji</th>
+                            <th>Afati i aplikimit</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                         <td>Zhvillues Web(Front-End)</td>
+                         <td>TechKos</td>
+                         <td>Prishtine</td>
+                         <td>Kohe e plote</td>
+                         <td>30 Nenor 2026</td>
+                    </tr>
+                    <tr>
+                         <td>Menaxher/e Marketingu</td>
+                         <td>Cookie Fabrique</td>
+                         <td>Prishtine</td>
+                         <td>Kohe e plote</td>
+                         <td>05 Dhjetor 2026</td>
+                    </tr>
+                     <tr>
+                         <td>Kontabilist/e</td>
+                         <td>Bleta Konsulting</td>
+                         <td>Prizren</td>
+                         <td>Kohe e plote</td>
+                         <td>10 Dhjetor 2026</td>
+                    </tr>
+                     <tr>
+                         <td>Mesues/e i Gjuhes Angleze</td>
+                         <td>Shkolla Horizonti</td>
+                         <td>Gjakove</td>
+                         <td>Kohe e pjesshme</td>
+                         <td>15 Dhjetor 2026</td>
+                    </tr>
+                     <tr>
+                         <td>Praktikant/e Dizajni</td>
+                         <td>Pixel Studio</td>
+                         <td>Ferizaj</td>
+                         <td>Praktike</td>
+                         <td>20 Dhjetor 2026</td>
+                    </tr>
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <td colspan="5">Gjithesej:5 pozita te hapura</td>
+                    </tr>
+                </tfoot>
+            </table>
+            </section>
+
+            <section>
+                <h2>Si te aplikoni</h2>
+                <ol>
+                    <li>Krijoni llogarine tuaj ne faqen <a href="register.html">Regjistrohu</a>.</li>
+                    <li>Hyni ne llogari permes faqes <a href="login.html">Hyr</a>.</li>
+                    <li>Zgjidhni poziten qe ju intereson.</li>
+                    <li>Dergoni aplikimin tuaj.</li>
+                </ol>
+            </section>
+    </main>
+    <footer>
+        <p>&copy; 2026 Portale Pune.Te gjitha te drejtat e rezervuara.</p>
+        <p>Email:<a href="mailto:info@portalpune.example">info@portalpune.example</a></p>
+    </footer>
+</body>
+</html>
