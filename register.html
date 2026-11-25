@@ -1,0 +1,164 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Regjistrohu| Portal Pune</title>
+  </head>
+  <body>
+    <header>
+      <h1>Portal Pune</h1>
+      <p>Gjeni punen tuaj te ardhsme ne Kosove</p>
+      <nav>
+        <ul>
+          <li><a href="index.html">Ballina</a></li>
+          <li><a href="punet.html">Punet</a></li>
+          <li><a href="rreth-nesh.html">Rreth nesh</a></li>
+          <li><a href="login.html">Hyr</a></li>
+          <li><a href="register.html">Regjistrohu</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section>
+        <h2>Krijo llogari te re</h2>
+        <form action="#" method="post">
+          <fieldset>
+            <legend>Te dhenat personale</legend>
+            <p>
+              <label for="emri">Emri:</label>
+              <input type="text" id="emri" name="emri" minlength="2" required />
+            </p>
+
+            <p>
+              <label for="email">Email:</label>
+              <input
+                type="email"
+                id="email"
+                name="email"
+                placeholder="emri@shembull.com"
+                required
+              />
+            </p>
+            <p>
+              <label for="telefoni">Telefoni:</label>
+              <input
+                type="tel"
+                id="telefoni"
+                name="telefoni"
+                placeholder="044 123 456"
+              />
+            </p>
+            <p>
+              <label for="qyteti">Qyteti:</label>
+              <select id="qyteti" name="qyteti" required>
+                <option value="">Zgjidhni qytetin</option>
+                <option value="prishtine">Prishtine</option>
+                <option value="prizren">Prizren</option>
+                <option value="peje">Peje</option>
+                <option value="gjakove">Gjakove</option>
+                <option value="ferizaj">Ferizaj</option>
+                <option value="gjilan">Gjilan</option>
+                <option value="mitrovice">Mitrovice</option>
+              </select>
+            </p>
+          </fieldset>
+          <fieldset>
+            <legend>Llogaria</legend>
+            <p>
+              <label for="fjalekalimi">Fjalekalimi:</label>
+              <input
+                type="password"
+                id="fjalekalimi"
+                name="fjalekalimi"
+                minlength="8"
+                required
+              />
+            </p>
+            <p>
+              <label for="konfirmo">Konfirmo fjalekalimin:</label>
+              <input
+                type="password"
+                id="konfirmo"
+                name="konfirmo"
+                minlength="8"
+                required
+              />
+            </p>
+          </fieldset>
+          <fieldset>
+            <legend>Lloji i llogarise</legend>
+            <p>
+              <input
+                type="radio"
+                id="kerkues"
+                name="roli"
+                value="kerkues"
+                checked
+              />
+              <label for="kerkues">Kerkoj pune</label>
+            </p>
+            <p>
+              <input
+                type="radio"
+                id="punedhenes"
+                name="roli"
+                value="punedhenes"
+              />
+              <label for="punedhenes">Jam punedhenes</label>
+            </p>
+          </fieldset>
+          <fieldset>
+            <legend>Fushat e interesit</legend>
+            <p>
+              <input type="checkbox" id="it" name="interesi" value="it" />
+              <label for="it">Teknologji e Informacionit</label>
+            </p>
+            <p>
+              <input
+                type="checkbox"
+                id="marketing"
+                name="interesi"
+                value="marketing"
+              />
+              <label for="marketing">Marketing dhe Shitje</label>
+            </p>
+            <p>
+              <input
+                type="checkbox"
+                id="financa"
+                name="interesi"
+                value="financa"
+              />
+              <label for="financa">Financa dhe Kontabilitet</label>
+            </p>
+            <p>
+              <input type="arsim" id="arsim" name="interesi" value="arsim" />
+              <label for="arsim">Arsim dhe Trajnim</label>
+            </p>
+          </fieldset>
+          <p>
+            <input
+              type="checkbox"
+              id="kushtet"
+              name="kushtet"
+              value="po"
+              required
+            />
+            <label for="kushtet">I pranoj kushtet e perdorimit</label>
+          </p>
+          <button type="submit">Regjistrohu</button>
+          <button type="reset">Pastro</button>
+        </form>
+        <p>Keni llogari? <a href="login.html">Hyni ketu</a>.</p>
+      </section>
+    </main>
+    <footer>
+      <p>&copy; 2026 Portal Pune.Te gjitha te drejtat e rezervuara.</p>
+      <p>
+        Email:
+        <a href="mailto:info@portalpune.example">info@portalpune.example</a>
+      </p>
+    </footer>
+  </body>
+</html>
